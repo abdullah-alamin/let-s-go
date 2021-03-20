@@ -1,0 +1,22 @@
+ [
+    {
+        "id": 1,
+        "image": "https://image.shutterstock.com/image-vector/cartoon-mini-bus-260nw-79026193.jpg",
+        "ride": "bus"
+    },
+    {
+        "id": 2,
+        "image": "https://png.pngtree.com/png-clipart/20190520/original/pngtree-cartoon-motorcycle-motocross-electrical-motorbike-png-image_3893222.jpg",
+        "ride": "bike"
+    },
+    {
+        "id": 3,
+        "image": "https://i.pinimg.com/originals/21/36/d8/2136d8d0e80aad580f170736f5e469ee.png",
+        "ride": "car"
+    },
+    {
+        "id": 4,
+        "image": "https://image.shutterstock.com/image-vector/train-260nw-104147417.jpg",
+        "ride": "train"
+    }
+]

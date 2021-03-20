@@ -12,7 +12,7 @@ function Nav() {
         </div>
         <div className='nav-links'>
           <Link to='/'><span>Home</span></Link>
-          <span>Destination</span>
+          <Link to='/transport/bike'><span>Destination</span></Link>
           <span>Blog</span>
           <span>Contact</span>
           {loggedUser.email?

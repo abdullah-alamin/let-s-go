@@ -30,3 +30,23 @@
   display: inline-block;
   padding: 5px 0px 5px 10px;
 }
+
+@media screen and (max-width: 700px) {
+  .booking-info,
+  .ride-info {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .booking,
+  .ride-display {
+    flex-direction: column;
+  }
+  .booking-map {
+    width: 90%;
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  .booking-map img {
+    width: 90%;
+  }
+}

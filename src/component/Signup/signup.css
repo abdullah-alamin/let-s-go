@@ -41,3 +41,19 @@ form {
   width: 80%;
   cursor: pointer;
 }
+
+@media screen and (max-width: 700px) {
+  .loginWrap {
+    flex-direction: column;
+  }
+  .signup,
+  .login {
+    width: 90%;
+  }
+  .other-sign-ins {
+    width: 90%;
+    border-left: none;
+    border-top: 3px solid grey;
+    margin-top: 20px;
+  }
+}
