@@ -1,0 +1,32 @@
+.booking,
+.ride-display {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.booking-info,
+.ride-info {
+  width: 28%;
+}
+.booking-map {
+  width: 68%;
+  text-align: center;
+  margin-top: 20px;
+}
+.booking-map img {
+  width: 80%;
+}
+.booking-form,
+.ride-info {
+  background-color: rgb(230, 230, 230);
+}
+.booking-form input {
+  width: 95%;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  display: inline-block;
+  padding: 5px 0px 5px 10px;
+}

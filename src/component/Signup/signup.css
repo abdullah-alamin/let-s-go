@@ -1,0 +1,43 @@
+.loginWrap {
+  width: 80%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.signup,
+.login {
+  width: 50%;
+  /* margin: 0 auto; */
+  /* margin-right: -20px; */
+}
+.other-sign-ins {
+  width: 40%;
+  border-left: 3px solid gray;
+}
+
+form {
+  border: 1px solid gray;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 6px;
+}
+.color-span {
+  cursor: pointer;
+  text-decoration: underline;
+  color: salmon;
+}
+
+.facebook,
+.google {
+  display: flex;
+  /* padding: 10px 15px; */
+  border-bottom: 3px solid salmon;
+  /* border-radius: 30%; */
+  margin: 10px auto;
+  justify-content: space-evenly;
+  width: 80%;
+  cursor: pointer;
+}
