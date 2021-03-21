@@ -13,10 +13,7 @@
 .booking-map {
   width: 68%;
   text-align: center;
-  margin-top: 20px;
-}
-.booking-map img {
-  width: 80%;
+  margin: 10px auto;
 }
 .booking-form,
 .ride-info {
@@ -45,8 +42,6 @@
     width: 90%;
     text-align: right;
     margin-bottom: 20px;
-  }
-  .booking-map img {
-    width: 90%;
+    margin-top: 30px;
   }
 }

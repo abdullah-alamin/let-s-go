@@ -6,10 +6,11 @@
   font-weight: bold;
 }
 .ride-info {
-  max-height: 345px;
+  max-height: 360px;
 }
 .ride-info img {
   width: 40px;
+  height: 25px;
   margin-left: 20px;
   padding-top: 10px;
   display: inline-block;

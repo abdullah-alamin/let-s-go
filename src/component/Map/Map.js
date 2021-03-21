@@ -1,39 +1,32 @@
 import React from 'react'
-import map from '../../images/Map.png'
 import { GoogleMap, LoadScript } from '@react-google-maps/api';
 
+const containerStyle = {
+  width: '100%',
+  height: '400px'
+};
+
+const center = {
+  lat: 25.211510,
+  lng: 88.149277
+};
+
 function Map() {
-    const mapStyles = {        
-        height: "100vh",
-        width: "100%"};
-      
-      const defaultCenter = {
-        lat: 41.3851, lng: 2.1734
-      }
-      
+   
     return (
         <div className='booking-map'>
-            <img src={map} alt=""/>
-            {/* <LoadScript
-                googleMapsApiKey='YOUR_API_KEY_HERE'> ----I couldn't manage the api key----
-                <GoogleMap
-                mapContainerStyle={mapStyles}
-                zoom={13}
-                center={defaultCenter}
-                />
-            </LoadScript> */}
+            <LoadScript
+              googleMapsApiKey="AIzaSyDaZnUw5YQGIFTvXNRSfbdk4XOnI6G4TPs" >
+              <GoogleMap
+                mapContainerStyle={containerStyle}
+                center={center}
+                zoom={10}
+              >
+               
+              </GoogleMap>
+            </LoadScript>
         </div>
     )
 }
 
 export default Map
-​
-const MapContainer = () => {
-  
- 
-  return (
-     
-  )
-}
-​
-export default MapContainer;
